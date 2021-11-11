@@ -33,8 +33,14 @@ class Listas extends StatelessWidget {
           ListTile(
             title: Text("INGSIS"),
             subtitle: Text("Ingeniería de Sistemas"),
-            leading: Icon(Icons.school_outlined),
+            leading: Container(
+              child: CircleAvatar(child: Image(image: AssetImage('img/atreides.jpg'))),
+            ),
             trailing: Icon(Icons.arrow_forward_sharp),
+          ),
+          Divider(),
+          Container(
+            child: Image(image: AssetImage('img/atreides.jpg')),
           ),
           Divider(),
         ],
