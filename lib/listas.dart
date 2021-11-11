@@ -36,6 +36,7 @@ class Listas extends StatelessWidget {
             leading: Icon(Icons.school_outlined),
             trailing: Icon(Icons.arrow_forward_sharp),
           ),
+          Divider(),
         ],
       ),
     );
